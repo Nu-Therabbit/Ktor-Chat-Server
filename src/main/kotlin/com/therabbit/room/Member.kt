@@ -1,6 +1,6 @@
 package com.therabbit.room
 
-import io.ktor.http.cio.websocket.*
+import io.ktor.websocket.*
 
 data class Member(
     val userName: String,

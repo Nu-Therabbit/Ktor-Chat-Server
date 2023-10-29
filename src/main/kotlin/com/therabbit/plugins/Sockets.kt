@@ -1,8 +1,7 @@
 package com.therabbit.plugins
 
-import io.ktor.application.*
-import io.ktor.http.cio.websocket.*
-import io.ktor.websocket.*
+import io.ktor.server.application.*
+import io.ktor.server.websocket.*
 import java.time.Duration
 
 fun Application.configureSockets() {

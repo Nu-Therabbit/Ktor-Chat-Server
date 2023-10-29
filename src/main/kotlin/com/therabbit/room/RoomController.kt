@@ -2,7 +2,7 @@ package com.therabbit.room
 
 import com.therabbit.data.MessageDataSource
 import com.therabbit.data.model.Message
-import io.ktor.http.cio.websocket.*
+import io.ktor.websocket.*
 import kotlinx.serialization.json.Json
 import java.util.concurrent.ConcurrentHashMap
 

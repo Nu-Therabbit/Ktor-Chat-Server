@@ -1,8 +1,8 @@
 package com.therabbit.plugins
 
 import com.therabbit.session.ChatSession
-import io.ktor.application.*
-import io.ktor.sessions.*
+import io.ktor.server.application.*
+import io.ktor.server.sessions.*
 import io.ktor.util.*
 
 fun Application.configureSecurity() {
